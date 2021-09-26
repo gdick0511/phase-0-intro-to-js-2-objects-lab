@@ -2,8 +2,9 @@
 
 const employee = {
     name: "Linux",
-    address: "Plannet Earth",
+    address: "Planet Earth",
 };
+
 
 function updateEmployeeWithKeyAndValue(obj,key,value) {
     const newEmployee = {...obj}
@@ -28,34 +29,18 @@ function destructivelyDeleteFromEmployeeByKey(obj,key) {
 }
 
 
-// you still need to add, commit and push this lab
 
 /*
-console.log(updateEmployeeWithKeyAndValue(employee,"name","Cara"));
+const newbie = destructivelyUpdateEmployeeWithKeyAndValue(employee,"name","Babes");
 */
 /*
-const newbie = updateEmployeeWithKeyAndValue(employee,"name","Cara");
-*/
-/*
-console.log(newbie);
-*/
-/*
-console.log(employee);
-*/
-/*
-const newGuy = destructivelyUpdateEmployeeWithKeyAndValue(employee,"name","Chad");
-*/
-/*
-console.log(newGuy);
-console.log(employee);
+const newbie = deleteFromEmployeeByKey(employee,"name");
 */
 
 /*
-const updatedName = deleteFromEmployeeByKey(employee,"name");
-
-const eraseName = destructivelyDeleteFromEmployeeByKey(employee,"name");
-
-console.log(eraseName);
-
-console.log(employee);
+const newbie = destructivelyDeleteFromEmployeeByKey(employee,"name");
 */
+
+
+// you still need to add, commit and push this lab udpate 2.0
+
